@@ -15,7 +15,7 @@ describe('HeroesGameController', () => {
   });
 
   describe('findAll', () => {
-    it('should return an array of cats', async () => {
+    it('should return an array of Heroes', async () => {
       expect(await controllerToTest.findAll()).toBe([]);
     });
   });
